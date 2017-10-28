@@ -1,0 +1,44 @@
+//styling for the navbar
+#mainNav {
+  text-transform: uppercase;
+  background: $theme-primary;
+  a:focus {
+    outline: none;
+  }
+  .navbar-brand {
+    font-size: 1.1em;
+    color: white;
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: $theme-success;
+    }
+  }
+  .navbar-nav {
+    letter-spacing: 1px;
+    li.nav-item {
+      a.nav-link {
+        color: white;
+        &:hover {
+          color: $theme-success;
+          outline: none;
+        }
+        &:active,
+        &:focus {
+          color: white;
+        }
+      }
+    }
+  }
+  .navbar-toggler {
+    color: white;
+    border-color: white;
+    &:hover,
+    &:focus {
+      color: white;
+      border-color: $theme-success;
+      background-color: $theme-success
+    }
+  }
+}

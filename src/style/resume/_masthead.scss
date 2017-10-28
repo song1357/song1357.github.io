@@ -1,0 +1,38 @@
+header#masthead {
+  background: $theme-success;
+  text-align: center;
+  color: white;
+  .wrap-banner {
+    position: relative;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  }
+  .main-title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    z-index: 999;
+    img {
+      height: 300px;
+      width: 240px;
+    }
+    .intro-text .name {
+      font-size: 5em;
+      font-family: 'Italianno', cursive;
+    }
+  }
+  #particles-js {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
