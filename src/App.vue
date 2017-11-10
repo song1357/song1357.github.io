@@ -1,11 +1,11 @@
 <template>
-    <div class="">
-        <app-resume></app-resume>
+    <div id="page-top">
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
-    import Resume from './components/Resume.vue'
+    import Resume from './components/resume/resume.vue'
     export default {
       components: {
         appResume: Resume

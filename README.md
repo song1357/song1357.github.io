@@ -1,6 +1,6 @@
-# yangsongisme
+# my-project
 
-> A resume based on vue
+> A Vue.js project
 
 ## Build Setup
 

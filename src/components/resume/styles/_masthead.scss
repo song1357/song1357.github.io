@@ -1,0 +1,83 @@
+header#masthead {
+  background: $theme-success;
+  text-align: center;
+  color: white;
+  .wrap-banner {
+    position: relative;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  }
+  .main-title {
+    margin-top: 10%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    z-index: 999;
+    img {
+      height: 300px;
+      width: 240px;
+    }
+    .intro-text {
+      font-size: 5em;
+      font-family: 'Italianno', cursive;
+
+      .name {
+        line-height: 93%;
+        display: block;
+        text-align: center;
+        margin: 0;
+        left: 0;
+        padding-top: 25px;
+        padding-bottom: 5px;
+      }
+    }
+
+  }
+  #particles-js {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media(min-width:992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-nav > li.nav-item > a.nav-link.active {
+      color: white;
+      border-radius: 3px;
+      background: $theme-success;
+      &:active,
+      &:focus,
+      &:hover {
+        color: white;
+        background: $theme-success;
+      }
+    }
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .navbar-brand {
+      font-size: 1.5em;
+    }
+  }
+}
+

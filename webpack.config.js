@@ -1,4 +1,3 @@
-
 var path = require('path')
 var webpack = require('webpack')
 
@@ -9,14 +8,6 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'build.js'
   },
-  plugins: [
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jquery: 'jquery',
-      'window.jQuery': 'jquery',
-      jQuery: 'jquery'
-    })
-  ],
   module: {
     rules: [
       {
