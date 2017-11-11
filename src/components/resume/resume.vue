@@ -104,7 +104,7 @@
                             whose attitude and capacity are good enough.All the time, I have been putting my energy into fields of IT and English before graduating from
                             University and after.There is no doubt that I will learn IT knowledge
                             forever,but I believe that I can take on primary front-end web developer occupation from now on.
-                            As we know, Chinese Internet is Galapagos islands of world,But I hope Chinese IT engineers become so
+                            As we know, Chinese Internet ecosystem is Galapagos islands in world,But I hope Chinese IT engineers become so
                             confident that embrace the whole earth instead of only China mainland.So I have been making good use of shadowsocks
                             technique and English to have a better and higher viewpoint to help me learn IT.
                         </p>
