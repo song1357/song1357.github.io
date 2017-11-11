@@ -75,7 +75,7 @@
                     <h2 class="heading">Portfolio</h2>
                 </div>
                 <div class="row">
-                    <div class="col-sm-8 col-xs-8   portfolio-item mx-auto">
+                    <div class=" portfolio-item mx-auto">
                         <router-link to="/winter">
                             <a class="portfolio-link">
                                 <div class="caption">
@@ -89,7 +89,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <!--About Me-->
@@ -99,11 +98,16 @@
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 ml-auto">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, suscipit.</p>
-                    </div>
-                    <div class="col-md-4 mr-auto">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, suscipit.</p>
+                    <div class="col-md-8 mx-auto">
+                        <p>My name is YangSong,I have enthusiasm on Information Technology.
+                            I believe that IT is so pluralistic that can embrace all walks of people
+                            whose attitude and capacity are good enough.All the time, I have been putting my energy into fields of IT and English before graduating from
+                            University and after.There is no doubt that I will learn IT knowledge
+                            forever,but I believe that I can take on primary front-end web developer occupation from now on.
+                            As we know, Chinese Internet is Galapagos islands of world,But I hope Chinese IT engineers become so
+                            confident that embrace the whole earth instead of only China mainland.So I have been making good use of shadowsocks
+                            technique and English to have a better and higher viewpoint to help me learn IT.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -116,7 +120,7 @@
                     <h2 class="heading">Skills</h2>
                 </div>
                 <ul>
-                    <li>CET6(English)</li>
+                    <li>CET6</li>
                     <li>Javascript</li>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -128,7 +132,7 @@
                     <li>Nodejs</li>
                     <li>Gulp</li>
                     <li>Git</li>
-                    <li>科学上网</li>
+                    <li>Shadowsocks(科学上网)</li>
                     <li>Pixelmator/Sketch</li>
                 </ul>
             </div>
