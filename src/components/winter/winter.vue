@@ -50,18 +50,16 @@
     <section class="parallaxScrolling">
         <div class="header">
             <h2>Hello Winter</h2>
-            <p>In this example we have turned off parallax scrolling for mobile devices.
-                It works as expected on all desktop screens sizes.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis ea eligendi in obcaecati optio
-                quas quod sint. Consequatur, dicta.
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit, vero. Esse eum facere ipsa ipsam
+                molestiae officia praesentium ullam veniam? Aliquam autem doloremque in maiores officia possimus quos
+                reprehenderit?
             </p>
         </div>
 
         <div class="parallax"></div>
-        <div class="parallax-text" style="height:200px;font-size:16px">
-            This div is just here to enable scrolling.
-            Tip: Try to remove the background-attachment property to remove the scrolling effect.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi dolor facere qui ratione voluptatem.
+        <div class="parallax-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem distinctio eligendi enim in nihil
+            nobis, provident repellat rerum! Deserunt facilis in itaque minima molestias, nesciunt nisi placeat quisquam vero.
         </div>
 
         <div class="parallax2"></div>
@@ -284,6 +282,8 @@ body, html {
           
         }
         .parallax-text {
+            height: 150px;
+            font-size:16px;
             background-color: #282e34;
             color: rgba(255,255,255,.8);
             text-align: justify;
@@ -301,6 +301,30 @@ body, html {
             background-image: url('../../assets/winter.jpg');
 
         }
+        @media(max-width: 575px) {
+            .parallax-text {
+                height: 220px;
+                color: rgba(255,255,255,.8);
+                text-align: justify;
+                padding-top: 26px;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 30px;
+            }
+        }
+        @media(max-width: 1000px) and (min-width: 575px) {
+            .parallax-text {
+                height: 120px;
+                color: rgba(255,255,255,.8);
+                text-align: justify;
+                padding-top: 26px;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 5px;
+            }
+        }
     }
+
+
 
 </style>
