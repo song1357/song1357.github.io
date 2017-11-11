@@ -98,7 +98,7 @@
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 mx-auto">
+                    <div class="col-md-12 mx-auto">
                         <p>My name is YangSong,I have enthusiasm on Information Technology.
                             I believe that IT is so pluralistic that can embrace all walks of people
                             whose attitude and capacity are good enough.All the time, I have been putting my energy into fields of IT and English before graduating from
