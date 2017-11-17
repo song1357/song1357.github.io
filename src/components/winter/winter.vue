@@ -1,6 +1,5 @@
 <template>
 <div class="">
-
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
             <router-link to="/"><a class="navbar-brand js-scroll-trigger">Winter is coming</a></router-link>
@@ -42,11 +41,12 @@
             </div>
         </div>
     </nav>
-
+<!-- banner -->
     <section class="banner">
-        <img src="../../assets/trees-winter.jpg" alt="" class="img-fluid" >
+        <h1>Hello World</h1>
     </section>
-
+        
+<!-- parallaxScrolling -->
     <section class="parallaxScrolling">
         <div class="header">
             <h2>Hello Winter</h2>
@@ -55,27 +55,55 @@
                 reprehenderit?
             </p>
         </div>
-
-        <div class="parallax"></div>
-        <div class="parallax-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem distinctio eligendi enim in nihil
-            nobis, provident repellat rerum! Deserunt facilis in itaque minima molestias, nesciunt nisi placeat quisquam vero.
+        <div class="parallax">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita cumque odio voluptatibus doloribus dolores molestiae, eos eius. Itaque, fuga, maiores?</p>
         </div>
+    </section>
 
-        <div class="parallax2"></div>
+    <!-- timeline -->
+    <section id=timeline>
+        <div class="dark-overlay">
+            <div class="timeline">
+          <div class="container left">
+              <div class="content">
+              <h2>2017</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2016</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2>2015</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2012</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        
     </section>
 </div>
 </template>
-<script>
 
-export default {
-    data() {
-        return {
-            isActive: false,
-            msg: 'Hello'
+<script>
+    export default {
+        data() {
+            return {
+              isActive: false,
+              msg: 'Hello'
+          }
         }
     }
-}
 </script>
 
 <style lang="scss" scoped>
@@ -226,7 +254,7 @@ body, html {
     border-color: fade-out(white, .7);
     background-color: transparent;
     .navbar-brand {
-      color: fade-out(white, .3);
+      color: fade-out(white, .3);;
       &:focus,
       &:hover {
         color: darken($theme-primary, .1);
@@ -249,20 +277,28 @@ body, html {
 
 //banner
 .banner {
-    height: 350px;
-    img {
-        height: 100%;
-        width: 100%;
+    h1 {
+        text-align: center;
+        color: fade-out($color: white, $amount: .2);
+        padding-top: 200px;
+        padding-bottom: 30px;
+      
     }
+    position: relative;
+    height: 450px;
+    background: url('../../assets/trees-winter.jpg') center center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
 }
 
-//Parallax Scrolling section
+//parallax Scrolling section
     .parallaxScrolling {
-        height: 400px;
+        height: 800px;
         .header {
             h2 {
                 text-align: center;
-                padding-top: 20px;
+                padding-top: 60px;
             }
             p {
                 margin-bottom: 20px;
@@ -270,9 +306,18 @@ body, html {
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: justify;
+                padding-bottom: 60px;
             }
         }
         .parallax {
+            p {
+                font-size: 20px;
+                padding-top: 25%;
+                padding-left: 20%;
+                padding-right: 20%;
+                text-align: center;
+             
+            }
             height: 100%;
             background-attachment: fixed;
             background-position: center;
@@ -291,15 +336,6 @@ body, html {
             padding-left: 50px;
             padding-right: 50px;
             padding-bottom: 30px;
-        }
-        .parallax2 {
-            height: 100%;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url('../../assets/winter.jpg');
-
         }
         @media(max-width: 575px) {
             .parallax-text {
@@ -324,6 +360,136 @@ body, html {
             }
         }
     }
+
+// timeline
+section#timeline {
+    box-sizing:border-box; 
+    background: url("../../assets/winter.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    .dark-overlay {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    // The actual timeline (the verticle ruler)
+    .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: white;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+    }
+    // Containter around content
+    .container {
+         padding: 10px 40px;
+         position: relative;
+         background-color: inherit;
+         width: 50%;
+         z-index: 100;
+         &::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: white;
+            border: 4px solid #FF9F55;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+         }
+    }
+    // Place the container to the left and right
+    .left {
+        left: -25.4%;
+    }
+    .right {
+        left: 25.4%;
+    }
+    /* Add arrows to the left container (pointing right) */
+    .left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 30px;
+        border: medium solid white;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent white;
+    }
+    /* Add arrows to the right container (pointing left) */
+    .right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 30px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    /* Fix the circle for containers on the right side */
+    .right::after {
+        left: -16px;
+    }
+
+    /* The actual content */
+    .content {
+        padding: 20px 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+    }
+    /* Media queries - Responsive timeline on screens less than 600px wide */
+    @media all and (max-width: 600px) {
+      /* Place the timelime to the left */
+      .timeline::after {
+        left: 3%;
+      }
+      
+      /* Full-width containers */
+      .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+      }
+       /* Make sure that all arrows are pointing leftwards */
+      .container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+      }
+
+      /* Make sure all circles are at the same spot */
+      .left::after, .right::after {
+        left: 0%;
+      }
+      
+      /* Make all right containers behave like the left ones */
+      .right {
+        left: 0%;
+      }
+
+      /* Make all left containers behave like the left ones */
+      .left {
+        left: 0%;
+      }
+
+    }
+}
 
 
 

@@ -151,7 +151,7 @@
                             <h3>University of Qingdao</h3>
                             <h4 style="font-size: large">Bachelor of Management</h4>
                         </div>
-                        <div class="ml-auto align-self-center">
+                        <div class="date ml-auto align-self-center">
                             <span>2012-2016</span>
                         </div>
                     </div>
@@ -162,10 +162,10 @@
                     <div class="row">
                         <div>
                             <h3>Self-Learning</h3>
-                        </div>
-                        <div class="ml-auto">
-                            <span class="education-date">2016-Forever</span>
-                        </div>
+                        </div> 
+                            <div class=" date ml-auto align-self-center">
+                                <span>2016-Forever</span>
+                            </div>
                     </div>
 
                 </div>

@@ -1,0 +1,10 @@
+{
+    "extends": "airbnb-base",
+    "plugins": ["vue"],
+    "rules": {
+    	"semi":"on",
+    	"comma-dangle":["error", "never"],
+    	"no-new":1,
+    	"vue/jsx-uses-vars": 4
+    }
+}

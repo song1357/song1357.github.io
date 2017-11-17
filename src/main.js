@@ -1,9 +1,8 @@
 import Vue from 'vue'
-import App from './App.vue'
 import VueRouter from 'vue-router'
+import App from './App.vue'
 import { routes } from './routes'
 import VueParticles from './vue-particles'
-
 
 
 Vue.use(VueParticles)
@@ -19,5 +18,3 @@ new Vue({
   router,
   render: h => h(App)
 })
-
-

@@ -4,7 +4,9 @@ section#education {
   padding: 50px 15px 20px 15px;
   border-bottom: 1px solid $border;
   text-align: center;
-
+  .date {
+    padding-top: 30px;
+  }
   .heading {
     font-family: 'Italianno', cursive;
     font-weight: 700;
@@ -39,9 +41,7 @@ section#education {
       margin: 0 0 5px 0;
       padding-top: 30px;
     }
-    span {
-     padding-top: 10px;
-    }
+    
 
   }
   .education-block2 {
@@ -52,9 +52,7 @@ section#education {
     text-align: left;
     h3 {
       font-weight: 500;
-
       margin: 0;
     }
-
   }
 }
