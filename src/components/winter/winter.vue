@@ -314,20 +314,19 @@ body, html {
             }
         }
         .parallax {
-            p {
-                font-size: 30px;
-                padding-top: 29%;
-                padding-left: 20%;
-                padding-right: 20%;
-                text-align: center;
-            }
             height: 100%;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             background-image: url('../../assets/people-winter.jpg');
-          
+            p {
+                font-size: 30px;
+                padding-top: 20%;
+                padding-left: 20%;
+                padding-right: 20%;
+                text-align: center;
+            }
         }
         .parallax-text {
             height: 150px;
@@ -343,20 +342,19 @@ body, html {
         @media(max-width: 575px) {
             .parallax {
                 background-attachment: scroll;
-                background: url('../../assets/portfolio3.jpg') center center no-repeat;
-                background-size: cover;
-                height: 70%;
+                // background: url('../../assets/people-winter.jpg') center center no-repeat;
+                // background-size: cover;
+                // height: 70%;
+                p {
+                    font-size: 25px;
+                    padding-top: 17%;
+                    padding-left: 20%;
+                    padding-right: 20%;
+                    text-align: center;
+                }
     
             }
-            .parallax-text {
-                height: 220px;
-                color: rgba(255,255,255,.8);
-                text-align: justify;
-                padding-top: 26px;
-                padding-left: 50px;
-                padding-right: 50px;
-                padding-bottom: 35px;
-            }
+            
         }
         @media(max-width: 1000px) and (min-width: 575px) {
             .parallax-text {
