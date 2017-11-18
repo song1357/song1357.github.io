@@ -343,15 +343,19 @@ body, html {
         @media(max-width: 575px) {
             .parallax {
                 background-attachment: scroll;
+                background: url('../../assets/portfolio3.jpg') center center no-repeat;
+                background-size: cover;
+                height: 70%;
+    
             }
             .parallax-text {
-                height: 220px;
+                height: 250px;
                 color: rgba(255,255,255,.8);
                 text-align: justify;
                 padding-top: 26px;
                 padding-left: 50px;
                 padding-right: 50px;
-                padding-bottom: 30px;
+                padding-bottom: 35px;
             }
         }
         @media(max-width: 1000px) and (min-width: 575px) {
