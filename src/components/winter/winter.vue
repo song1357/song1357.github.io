@@ -138,7 +138,7 @@ body, html {
 
 //navbar
 #mainNav {
-    position: absolute;
+  position: absolute;
   border-color: fade-out($gray-darker, .95);
   background-color: transparent;
   @include sans-serif-font;
@@ -176,7 +176,7 @@ body, html {
         -o-transition:all .2s linear 0s;
     }
     .btnOpen {
-        color: fade-out($color: white, $amount: .3);
+        // color: fade-out($color: white, $amount: .3);
         &:active:after {
             color: darken($theme-primary, .1);
         }
@@ -320,7 +320,6 @@ body, html {
                 padding-left: 20%;
                 padding-right: 20%;
                 text-align: center;
-             
             }
             height: 100%;
             background-attachment: fixed;
@@ -342,6 +341,13 @@ body, html {
             padding-bottom: 30px;
         }
         @media(max-width: 575px) {
+            .parallax {
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url('../../assets/people-winter.jpg');
+            }
             .parallax-text {
                 height: 220px;
                 color: rgba(255,255,255,.8);
@@ -428,7 +434,7 @@ section#timeline {
         z-index: 1;
         right: 30px;
         border: medium solid white;
-        border-width: 10px 0 10px 10px;
+        border-width: 10px 0 10px 11px;
         border-color: transparent transparent transparent white;
     }
     /* Add arrows to the right container (pointing left) */
@@ -441,7 +447,7 @@ section#timeline {
         z-index: 1;
         left: 30px;
         border: medium solid white;
-        border-width: 10px 10px 10px 0;
+        border-width: 10px 11px 10px 0;
         border-color: transparent white transparent transparent;
     }
     /* Fix the circle for containers on the right side */
@@ -473,7 +479,7 @@ section#timeline {
       .container::before {
         left: 60px;
         border: medium solid white;
-        border-width: 10px 10px 10px 0;
+        border-width: 10px 11px 10px 0;
         border-color: transparent white transparent transparent;
       }
 
