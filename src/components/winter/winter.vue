@@ -305,18 +305,18 @@ body, html {
                 padding-top: 60px;
             }
             p {
-                margin-bottom: 20px;
+                margin-bottom: 18px;
                 margin-top: 10px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: justify;
-                padding-bottom: 60px;
+                padding-bottom: 58px;
             }
         }
         .parallax {
             p {
-                font-size: 20px;
-                padding-top: 25%;
+                font-size: 30px;
+                padding-top: 29%;
                 padding-left: 20%;
                 padding-right: 20%;
                 text-align: center;
@@ -349,7 +349,7 @@ body, html {
     
             }
             .parallax-text {
-                height: 250px;
+                height: 220px;
                 color: rgba(255,255,255,.8);
                 text-align: justify;
                 padding-top: 26px;
