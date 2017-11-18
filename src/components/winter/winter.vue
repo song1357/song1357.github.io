@@ -343,6 +343,7 @@ body, html {
         @media(max-width: 575px) {
             .parallax {
                 height: 100%;
+                background-attachment: scroll;
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
