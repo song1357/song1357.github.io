@@ -342,12 +342,7 @@ body, html {
         }
         @media(max-width: 575px) {
             .parallax {
-                height: 100%;
                 background-attachment: scroll;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-image: url('../../assets/people-winter.jpg');
             }
             .parallax-text {
                 height: 220px;
