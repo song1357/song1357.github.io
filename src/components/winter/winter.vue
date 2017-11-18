@@ -138,6 +138,7 @@ body, html {
 
 //navbar
 #mainNav {
+    position: absolute;
   border-color: fade-out($gray-darker, .95);
   background-color: transparent;
   @include sans-serif-font;
@@ -174,8 +175,11 @@ body, html {
         -webkit-transition:all .2s linear 0s;
         -o-transition:all .2s linear 0s;
     }
-    .btnOpen:hover:after {
-        color: darken($theme-primary, .1);
+    .btnOpen {
+        color: fade-out($color: white, $amount: .3);
+        &:active:after {
+            color: darken($theme-primary, .1);
+        }
     }
     .btnClose:after {
         color:fade-out($color: white, $amount: .3);
