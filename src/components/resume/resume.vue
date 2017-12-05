@@ -129,11 +129,11 @@
                     <li>Sass</li>
                     <li>Vue</li>
                     <li>ES6</li>
-                    <li>Nodejs</li>
+                    <li>Python</li>
+                    <li>Java</li>
                     <li>Gulp</li>
                     <li>Git</li>
                     <li>Shadowsocks(科学上网)</li>
-                    <li>Pixelmator/Sketch</li>
                 </ul>
             </div>
         </section>

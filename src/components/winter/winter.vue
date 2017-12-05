@@ -342,9 +342,9 @@ body, html {
         @media(max-width: 575px) {
             .parallax {
                 background-attachment: scroll;
-                // background: url('../../assets/people-winter.jpg') center center no-repeat;
-                // background-size: cover;
-                // height: 70%;
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
                 p {
                     font-size: 25px;
                     padding-top: 17%;
