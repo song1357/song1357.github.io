@@ -129,11 +129,13 @@
                     <li>Sass</li>
                     <li>Vue</li>
                     <li>ES6</li>
-                    <li>Python</li>
                     <li>Java</li>
                     <li>Gulp</li>
                     <li>Git</li>
-                    <li>Shadowsocks(科学上网)</li>
+                    <li>Data Structure</li>
+                    <li>Algorithm</li>
+                    <li>Design Pattern</li>
+                    <li>Scientifically Surfing Internet</li>
                 </ul>
             </div>
         </section>
